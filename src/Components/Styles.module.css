@@ -1,0 +1,441 @@
+/* __________________Headers____________________ */
+
+.header1 {
+  /* border: 3px solid yellow; */
+  background: #23856D;
+  width: 100%;
+  height: 58px;
+  color: #ffff;
+}
+.header1A {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 46px;
+  top: 9px;
+  margin: auto;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.section3 {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  gap: 10px;
+}
+.socialIcons {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 35%;
+  gap: 10px;
+}
+.socialIcons img {
+  width: 16px;
+  height: 16px;
+}
+.header2 {
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 58px;
+  margin-top: 10px;
+  padding: 0px 17px 0px 38px;
+  gap: 250px;
+}
+.header2H3 {
+  /* border: 3x solid orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header2A {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.header2A nav ul{
+  /* border: 3px solid greenyellow; */
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 361px;
+  gap: 15px;
+}
+
+.header2B {
+  /* border: 3px solid orange; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+
+/* _____________________HeroSection________________________ */
+
+.heroSectionmain {
+  /* border: 3px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 784px;
+}
+.heroSection2 {
+  /* border: 3px solid blue; */
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  height: 79%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.heroSectionText {
+  /* border: 5px solid red; */
+  margin-left: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.heroSectionText .heroSectionP {
+  color: #2DC071;
+}
+.fourCards {
+  /* border: 3px solid yellow; */
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: 616px;
+  gap: 15px;
+}
+.card1 {
+  /* border: 5px solid red; */
+  background-image: url("/public/media bg-cover1.png");
+  width: 452px;
+  /* height: 608px; */
+}
+.threeCards {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: 615px;
+  gap: 15px;
+}
+.card2 {
+  background-image: url("/public/media bg-cover2.png");
+  height: 300px;
+  width: 700px;
+}
+.twoCards {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: fit-content;
+}
+.card3 {
+  background-image: url("/public/media bg-cover3.png");
+  height: 300px;
+  width: 335px;
+}
+.card4 {
+  background-image: url("/public/media bg-cover4.png");
+  height: 300px;
+  width: 350px;
+}
+
+
+/* _____________________Featured Products____________________ */
+
+.FProductsMain {
+  /* border: 5px solid red; */
+  width: 100%;
+  height: 632px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FProductsSection1 {
+  /* border: 5px solid blue; */
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.FProductsSection2 {
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 40px;
+}
+.DescriptionDiv {
+  height: 102px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 10px;
+}
+.ServicesDiv1 {
+  /* border: 5px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 254px;
+  text-align: center;
+  gap: 20px;
+}
+.ServicesDiv1 img {
+  /* border: 5px solid red; */
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-self: center;
+}
+.ServicesDiv2 {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 254px;
+  text-align: center;
+  gap: 20px;
+}
+.ServicesDiv2 img {
+  /* border: 5px solid red; */
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-self: center;
+}
+
+.ServicesDiv3 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 254px;
+  text-align: center;
+  gap: 20px;
+  size: 14px;
+}
+.ServicesDiv3 img {
+  /* border: 5px solid red; */
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-self: center;
+}
+
+/* ___________________Feedback__________________ */
+
+.FeedbackMain {
+  /* border: 5px solid red; */
+  display: flex;
+  height: 682px;
+}
+.FeedbackSections {
+  /* border: 5px solid blue; */
+  width: 80%;
+  margin: auto;
+  height: 682px;
+}
+.FeedbackSection1 {
+  /* border: 5px solid green; */
+  display: flex;
+  height: 522px;
+  padding: 48px;
+  justify-content: space-between;
+  align-items: center;
+}
+.FeedbackSection1Div1 {
+  /* border: 5px solid red; */
+  width: 400px;
+  height: 388px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.FeedbackSection1Div2 {
+  /* border: 3px solid red; */
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.FeedbackSection2Div {
+  /* border: 3px solid red; */
+  width: 464px;
+  display: grid;
+  grid-template-columns: 142px 142px 142px;
+  grid-template-rows: 142px 142px 142px;
+  grid-gap: 20px;
+}
+
+
+
+/* _________________LandingSection5___________________
+ */
+
+ .LandingSection5main {
+  /* border: 5px solid red; */
+  height: 640px;
+  background-image: url('/public/unsplash\ background.png');
+ }
+ .LandingSection5Section {
+  /* border: 3px solid blue; */
+  margin: auto;
+  height: 640px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .LandingSection5Div {
+  /* border: 5px solid red; */
+  width: 400px;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  text-align: center;
+ }
+ .LandingSection5Div h6 {
+  color: #23A6F0;
+  size: 20px;
+ }
+ .LandingSection5Div h2 {
+  /* border: 3px solid red; */
+  font-weight: 700;
+  width: 75%;
+  margin: auto;
+  font-style: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size: 40px;
+ }
+ .LandingSection5Div p {
+  color: #737373;
+  size: 20px;
+ }
+ .LandingSection5Div h3 {
+  color: #23856D;
+ }
+ .section5Button {
+  /* border: 5px solid brown; */
+  width: 292px;
+  height: 52px;
+  border-style: hidden;
+  border-radius: 5px;
+  background-color: #23A6F0;
+  padding: 15px, 40px, 15px, 40px;
+  cursor: pointer;
+  color: white;
+  gap: 10px;
+ }
+
+
+
+ /* _______________________BandageFooter_____________________ */
+
+ .BandageFooterMain {
+  /* border: 5px solid red; */
+  height: 488px;
+ }
+ .BandageFooterSection1 {
+  /* border: 5px solid green; */
+  width: 70%;
+  height: 138px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+ .BandageFooterDiv1 {
+  /* border: 5px solid yellow; */
+  width: 100%;
+  height: 58px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .BandageFooterImgDiv {
+  /* border: 5px solid red; */
+  width: 150px;
+  display: flex;
+  cursor: pointer;
+  gap: 20px;
+  justify-content: flex-end;
+ }
+ .BandageFooterSection2 {
+  /* border: 5px solid red; */
+  height: 270px;
+ }
+ .BandageFooterSection2A {
+  /* border: 5px solid blue; */
+  width: 80%;
+  height: 170px;
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px, 0px, 50px, 0px;
+  align-items: center;
+ }
+ #inputButtonDiv {
+  /* border: 5px solid red; */
+  width: 321px;
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+ }
+ .BandageFooterInput {
+  width: 70%;
+  padding: 10px;
+ }
+ .BandageFooterButton {
+  width: 140px;
+  background: #23A6F0;
+  color: white;
+  border-style: none;
+  cursor: pointer;
+ }
+ .BandageFooterSection2A div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+ .BandageFooterSection3 {
+  /* border: 5px solid pink; */
+  width: fit-content;
+  display: flex;
+  margin-left: 195px;
+ }
