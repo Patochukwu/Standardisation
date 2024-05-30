@@ -4,6 +4,7 @@ import { FeaturedProducts } from "../Components/FeaturedProducts"
 import { Feedback } from "../Components/Feedback"
 import { LandingSection5 } from "../Components/LandingSection5"
 import { BandageFooter } from "../Components/BandageFooter"
+import { FeaturedPosts } from "../Components/FeaturedPosts"
 
 
 
@@ -13,6 +14,7 @@ export const LandingPage = () => {
         <Headers />
         <HeroSection />
         <FeaturedProducts />
+        <FeaturedPosts />
         <Feedback />
         <LandingSection5 />
         <BandageFooter />

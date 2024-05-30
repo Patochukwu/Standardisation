@@ -439,3 +439,243 @@
   display: flex;
   margin-left: 195px;
  }
+
+
+ /* __________________________FeaturedPosts-Section___________________________ */
+
+ .featuredPostHeading {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: auto;
+  width: 692px;
+  height: 84px;
+}
+.featuredPostHeading h6 {
+  width: 114px;
+  height: 24px;
+  color: #23A6F0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+.featuredPostHeading h2 {
+  width: 309px;
+  height: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #252B42;
+}
+.overlaySection {
+  /* border: 3px solid yellow; */
+  position: relative;
+  display: inline-block;
+  width: 348px;
+  height: 300px;
+}
+.overlaySection img {
+  width: 348px;
+  height: 300px;
+}
+
+.overlayText {
+  width: 58px;
+  height: 24px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 3px 0px 0px 0px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+.featuredPostMain {
+  /* border: 3px solid black; */
+  width: 100%;
+  height: 994px;
+} 
+.featuredPostContainer {
+  /* border: 3px solid blue; */
+  width: 80%;
+  height: 994px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* gap: 50px; */
+}
+
+.cardDivs {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: 606px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  gap: 30px;
+}
+.featuredPostCard {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0px 2px 4px 0px #0000001A;
+}
+.FeaturedPostSection2 {
+  width: 348px;
+  height: 306px;
+  /* padding: 15px 0px 0px 10px; */
+  padding: 25px 25px 35px 25px;
+  gap: 10px;
+}
+.googleTrendNew {
+  /* border: 3px solid blue; */
+  width: 159px;
+  height: 16px;
+  gap: 15px;
+  display: flex;
+}
+
+.google {
+  width: 45px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #8EC2F2;
+}
+.trending {
+  width: 56px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+.new {
+  width: 28px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.FeaturedPostSection2 h4 {
+  width: 230px;
+  /* height: 60px; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #252B42;
+}
+
+.FeaturedPostSection2 p{
+  width: 190px;
+  height: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.dateComment {
+  /* border: 3px solid red; */
+  width: 270px;
+  height: 46px;
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  /* border: 3px solid green; */
+  width: 90px;
+  height: 16px;
+  gap: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+.date img {
+  width: 16px;
+  height: 16px;
+}
+.date small {
+  /* border: 3px solid yellow; */
+  width: 72px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+.comments {
+  /* border: 3px solid blue; */
+  width: 100px;
+  height: 16px;
+  gap: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comments img {
+  /* border: 3px solid red; */
+  width: 16px;
+  height: 14.67px;
+}
+.comments small {
+  width: 80px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.FeaturedPostSection2 h6 {
+  /* border: 3px solid orange; */
+  width: 104px;
+  height: 24px;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.FeaturedPostSection2 h6 img {
+  width: 9px;
+  height: 16px;
+  padding: 0px 0.38px 0px 0px;
+}
