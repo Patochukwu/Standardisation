@@ -33,18 +33,18 @@ export const Headers = () => {
                 <section>
                     <nav>
                         <ul>
-                            <li>Home</li>
-                            <li>Shop <img src="/dropdown icon.png" alt="" /></li>
-                            <li>About</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
-                            <li>Pages</li>
+                            <li><a href=''>Home</a></li>
+                            <li><a href=''>Shop</a><img src="/dropdown icon.png" alt="" /></li>
+                            <li><a href=''>About</a></li>
+                            <li><a href=''>Blog</a></li>
+                            <li><a href=''>Contact</a></li>
+                            <li><a href=''>Pages</a></li>
                         </ul>
                     </nav>
                 </section>
                 <section className={Styles.header2B}>
                     <div>
-                        <p><img src="/profile-icon.png" alt="" /> Login / Register</p>
+                        <p><img src="/profile-icon.png" alt="" /><a href=''>Login</a> / <a href=''>Register</a></p>
                     </div>
                     <img src="/search icon.png" alt="" />
                     <img src="/cart icon.png" alt="" />

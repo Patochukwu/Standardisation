@@ -77,6 +77,10 @@
   width: 361px;
   gap: 15px;
 }
+ul li a {
+  text-decoration: none;
+  color: black;
+}
 
 .header2B {
   /* border: 3px solid orange; */
@@ -437,5 +441,90 @@
   /* border: 5px solid pink; */
   width: fit-content;
   display: flex;
-  margin-left: 195px;
+  margin-left: 260px;
+ }
+
+
+ /* __________________________SingleItemHeader_________________________ */
+
+ .SingleItemHeaderMain {
+  /* border: 5px solid red; */
+  height: 92px;
+  display: flex;
+  align-items: center;
+ }
+ .SingleItemHeaderDiv {
+  /* border: 3px solid blue; */
+  width: 150px;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 30px;
+ }
+ .SingleItemHeaderDiv h3 a {
+  text-decoration: none;
+  color: black;
+ }
+ .SingleItemHeaderDiv h4 {
+  color: #BDBDBD;
+ }
+
+
+ /* _________________________DescriptionSection______________________ */
+
+ .DescriptionSectionMain {
+  /* border: 5px solid red; */
+  height: 572px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+ .DescriptionSection1Div {
+  /* border: 3px solid pink; */
+  width: 80%;
+  height: 72px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+ }
+ .DescriptionSection1Div p a{
+  text-decoration-line: none;
+  color: black;
+ }
+ .DescriptionSection2 {
+  /* border: 5px solid orange; */
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+ }
+ .DescriptionSection2Div {
+  /* border: 3px solid yellow; */
+  width: 513px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ }
+ .DescriptionSection2ImgDiv {
+  height: 392px;
+ }
+
+
+
+ /* _____________________________Brands_______________________________ */
+
+ .BrandsMain {
+  /* border: 5px solid red; */
+  height: 175px;
+  display: flex;
+  align-items: center;
+ }
+ .BrandsSection {
+  width: 78%;
+  /* border: 3px solid blue; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
  }
