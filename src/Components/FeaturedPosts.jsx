@@ -55,7 +55,7 @@ const FeaturedPostCard = ({image}) => {
                         <small>10 comments</small>
                     </p>
                 </div>
-                <h6>Learn More <img src="/sidearrow-icon.png" alt="" /></h6>
+                <h6>Learn More <img src="/arrow-right icon.png" alt="" /></h6>
             </section>
         </main>
     )

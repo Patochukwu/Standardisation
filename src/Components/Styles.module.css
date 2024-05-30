@@ -533,6 +533,7 @@ ul li a {
  /* __________________________FeaturedPosts-Section___________________________ */
 
  .featuredPostHeading {
+  /* border: 5px solid red; */
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
