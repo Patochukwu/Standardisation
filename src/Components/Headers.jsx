@@ -33,7 +33,7 @@ export const Headers = () => {
                 <section>
                     <nav>
                         <ul>
-                            <li><a href=''>Home</a></li>
+                            <li><a href='http://localhost:5173/'>Home</a></li>
                             <li><a href=''>Shop</a><img src="/dropdown icon.png" alt="" /></li>
                             <li><a href=''>About</a></li>
                             <li><a href=''>Blog</a></li>
