@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from './Button'
-import Styles from './Styles.module.css'
+import Styles from '../styles/Styles.module.css'
 
 export const BandageFooter = () => {
   return (
