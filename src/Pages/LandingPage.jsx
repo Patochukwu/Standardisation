@@ -5,6 +5,7 @@ import { Feedback } from "../Components/Feedback"
 import { LandingSection5 } from "../Components/LandingSection5"
 import { BandageFooter } from "../Components/BandageFooter"
 import { FeaturedPosts } from "../Components/FeaturedPosts"
+import { ProductList } from "../Components/ProductList"
 
 
 
@@ -13,6 +14,7 @@ export const LandingPage = () => {
     <section>
         <Headers />
         <HeroSection />
+        <ProductList />
         <FeaturedProducts />
         <FeaturedPosts />
         <Feedback />

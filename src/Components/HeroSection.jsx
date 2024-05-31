@@ -1,5 +1,5 @@
 
-import Styles from './Styles.module.css'
+import Styles from '../styles/Styles.module.css'
 
 export const HeroSection = () => {
   return (
